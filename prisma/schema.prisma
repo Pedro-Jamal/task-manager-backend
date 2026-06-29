@@ -27,5 +27,5 @@ model Task {
   user   User @relation(fields: [userId], references: [id])
 
   createdAt DateTime @default(now())
-  upatedAt  DateTime @updatedAt
+  updatedAt  DateTime @updatedAt
 }
